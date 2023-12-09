@@ -1,0 +1,66 @@
+h1, h2, h3 , h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+}
+p a {
+  font-family: 'Jura', sans-serif;
+}
+
+/* JumboTron */
+.jumboBackground {
+  background-image: url(../images/IMG_2098.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+/* navbar */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+.profile-pic {
+  background-image: url(/assets/images/Profile Picture.jpeg);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 4px solid white;
+}
+.profile-pic img {
+  padding-right: 15px;
+  width: 65px;
+}
+
+.cardContainer {
+  margin-top: 20px;
+  display: block grid;
+}
+.card {
+  margin: 0 auto;
+}
