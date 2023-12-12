@@ -1,10 +1,13 @@
 h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-p a {
-  font-family: 'Jura', sans-serif;
+p, a {
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-
+body {
+  background-color: #F1F6F5;
+  color: #333;
+}
 /* JumboTron */
 .jumboBackground {
   background-image: url(../images/IMG_2098.JPG);
@@ -22,6 +25,7 @@ p a {
   color: white;
   text-align: center;
 }
+
 /* navbar */
 .customNav {
   position: fixed;
@@ -31,32 +35,22 @@ p a {
   background-size: cover;
   z-index: 10;
 }
-.navbar-nav {
-  margin-left: auto;
-  margin-right: 0 !important;
+.nav {
+  justify-content: space-evenly;
 }
-.navbar-brand img {
-  padding-right: 15px;
-  width: 65px;
-}
-.nav-item {
-  margin: 0px 15px;
-}
+
+/* profile picture */
 .profile-pic {
   background-image: url(/assets/images/Profile Picture.jpeg);
   width: 200px;
   height: 200px;
   border-radius: 50%;
   position: absolute;
-  top: 20px;
+  top: 50px;
   left: 20px;
   border: 4px solid white;
 }
-.profile-pic img {
-  padding-right: 15px;
-  width: 65px;
-}
-
+/* card properties */
 .cardContainer {
   margin-top: 20px;
   display: block grid;
@@ -64,3 +58,9 @@ p a {
 .card {
   margin: 0 auto;
 }
+.card-img-top {
+  
+  
+}
+
+/* footer */
