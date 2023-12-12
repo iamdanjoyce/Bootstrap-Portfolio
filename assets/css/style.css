@@ -8,6 +8,13 @@ body {
   background-color: #F1F6F5;
   color: #333;
 }
+
+a.nav-link:hover {
+  color: black;
+}
+a:hover {
+  color: black;}
+
 /* JumboTron */
 .jumboBackground {
   background-image: url(../images/IMG_2098.JPG);
@@ -41,7 +48,6 @@ body {
 
 /* profile picture */
 .profile-pic {
-  background-image: url(/assets/images/Profile Picture.jpeg);
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -54,9 +60,11 @@ body {
 .cardContainer {
   margin-top: 20px;
   display: block grid;
+  padding: 50px;
 }
 .card {
   margin: 0 auto;
+  padding: 20px;
 }
 .card-img-top {
   
