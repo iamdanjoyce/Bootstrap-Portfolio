@@ -33,18 +33,6 @@ a:hover {
   text-align: center;
 }
 
-/* navbar */
-.customNav {
-  position: fixed;
-  width: 100%;
-  background: url("../images/transparency.png");
-  background-color: transparent !important;
-  background-size: cover;
-  z-index: 10;
-}
-.nav {
-  justify-content: space-evenly;
-}
 
 /* profile picture */
 .profile-pic {
