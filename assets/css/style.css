@@ -35,6 +35,7 @@ a:hover {
 
 /* profile picture */
 .profile-pic {
+  background-image: url("/assets/images/Profile Picture.jpeg");
   width: 200px;
   height: 200px;
   border-radius: 50%;
